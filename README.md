@@ -17,15 +17,12 @@ Este projeto implementa um servidor web no Raspberry Pi Pico W que monitora a po
 - **Rotas HTTP**:
   - `/` (raiz): Retorna a página HTML principal
   - `/api/joystick`: Retorna os valores dos eixos do joystick em formato JSON
-- **JavaScript do Cliente**: 
+- **JavaScript do Cliente**:
   - Realiza requisições periódicas usando a Fetch API
   - Determina a direção com base nos valores X e Y
   - Atualiza a interface gráfica com as informações
 
-## Hardware Necessário
+## Dashboard
 
-- Raspberry Pi Pico W
-- Joystick analógico de 2 eixos
-- Conexões:
-  - Eixo X do joystick ao GPIO27 (ADC1)
-  - Eixo Y do joystick ao GPIO26 (ADC0)
+![Dashboard](./dash-joystick.png "Dashboard")
+
